@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="icon" href="/favicon.ico"/>
+    
+    <!-- Styling -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- Game Engine -->
+    <script type="application/javascript" src="js/base.js"></script>
+    <script type="application/javascript" src="js/game.js"></script>
+    <script type="application/javascript" src="js/physic.js"></script>
+    <script type="application/javascript" src="js/logic.js"></script>
+    <script type="application/javascript" src="js/audio.js"></script>
+    <script type="application/javascript" src="js/gui.js"></script>
+    <script type="application/javascript" src="js/setting.js"></script>
+    
+    <!-- Game Elemente -->
+    <script type="application/javascript" src="js/player.js"></script>
+    <script type="application/javascript" src="js/obj/block.js"></script>
+</head>
+
+<body onLoad="Game.init()">
+<div class="website_wrapper">
+	<div class="header_wrapper">Snake</div>
+    
+    <div class="game_wrapper">
+    	<div class="left_content">
+        	<div class="game_field" id="game_field"></div>
+        </div>
+        <div class="right_content">
+            <div class="highscore" id="highscore_field"></div>
+            <div class="username" id="username_field"></div>
+            <div class="usermail" id="usermail_field"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
